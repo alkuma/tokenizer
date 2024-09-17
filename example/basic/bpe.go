@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/model/bpe"
-	"github.com/sugarme/tokenizer/pretokenizer"
-	"github.com/sugarme/tokenizer/processor"
-	"github.com/sugarme/tokenizer/util"
+	"github.com/alkuma/tokenizer"
+	"github.com/alkuma/tokenizer/model/bpe"
+	"github.com/alkuma/tokenizer/pretokenizer"
+	"github.com/alkuma/tokenizer/processor"
+	"github.com/alkuma/tokenizer/util"
 )
 
 func runBPE() {

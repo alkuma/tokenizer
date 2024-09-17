@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/model"
-	"github.com/sugarme/tokenizer/model/bpe"
-	"github.com/sugarme/tokenizer/model/wordlevel"
-	"github.com/sugarme/tokenizer/model/wordpiece"
-	"github.com/sugarme/tokenizer/util"
+	"github.com/alkuma/tokenizer"
+	"github.com/alkuma/tokenizer/model"
+	"github.com/alkuma/tokenizer/model/bpe"
+	"github.com/alkuma/tokenizer/model/wordlevel"
+	"github.com/alkuma/tokenizer/model/wordpiece"
+	"github.com/alkuma/tokenizer/util"
 )
 
 // This file provides functions to create tokenizer.Model from input data.

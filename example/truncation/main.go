@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/pretrained"
+	"github.com/alkuma/tokenizer"
+	"github.com/alkuma/tokenizer/pretrained"
 )
 
 func main() {

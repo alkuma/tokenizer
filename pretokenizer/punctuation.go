@@ -3,8 +3,8 @@ package pretokenizer
 import (
 	"unicode"
 
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/normalizer"
+	"github.com/alkuma/tokenizer"
+	"github.com/alkuma/tokenizer/normalizer"
 )
 
 // bpunc is the BERT extension of the Punctuation character range

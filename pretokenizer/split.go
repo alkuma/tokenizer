@@ -1,8 +1,8 @@
 package pretokenizer
 
 import (
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/normalizer"
+	"github.com/alkuma/tokenizer"
+	"github.com/alkuma/tokenizer/normalizer"
 )
 
 type Split struct {

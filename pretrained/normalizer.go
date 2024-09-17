@@ -18,8 +18,8 @@ package pretrained
 import (
 	"fmt"
 
-	"github.com/sugarme/tokenizer/normalizer"
-	"github.com/sugarme/tokenizer/util"
+	"github.com/alkuma/tokenizer/normalizer"
+	"github.com/alkuma/tokenizer/util"
 )
 
 // CreateNormalizer creates Normalizer from config data.

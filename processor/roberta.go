@@ -1,8 +1,8 @@
 package processor
 
 import (
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/pretokenizer"
+	"github.com/alkuma/tokenizer"
+	"github.com/alkuma/tokenizer/pretokenizer"
 )
 
 // RobertaProcessing is a post post processor for Roberta model

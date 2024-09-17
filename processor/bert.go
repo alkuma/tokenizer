@@ -1,7 +1,7 @@
 package processor
 
 import (
-	"github.com/sugarme/tokenizer"
+	"github.com/alkuma/tokenizer"
 )
 
 type PostToken struct {

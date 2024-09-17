@@ -1,7 +1,7 @@
 language: go
 
 go:
-  - 1.14.x
+  - 1.23.1
 
 env:
   - GO111MODULE=on
@@ -14,8 +14,8 @@ dist: bionic
 
 script:
   - go get -u ./...
-  - go test -v github.com/sugarme/tokenizer/normalizer
-  - go test -v github.com/sugarme/tokenizer/model/bpe
-  - go test -v github.com/sugarme/tokenizer/model/wordpiece
-  - go test -v github.com/sugarme/tokenizer/pretokenizer
-  - go test -v github.com/sugarme/tokenizer
+  - go test -v github.com/alkuma/tokenizer/normalizer
+  - go test -v github.com/alkuma/tokenizer/model/bpe
+  - go test -v github.com/alkuma/tokenizer/model/wordpiece
+  - go test -v github.com/alkuma/tokenizer/pretokenizer
+  - go test -v github.com/alkuma/tokenizer
